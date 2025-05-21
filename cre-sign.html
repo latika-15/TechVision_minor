@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    background-image: url('https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEwL3Jhd3BpeGVsb2ZmaWNlOV8zZF92aXN1YWxpemF0aW9uX29mX3Zhc3RfZGF0YV9zdHJlYW1zX2Zsb3dpbmdfaV8yZjY3YmJmNC01ZmNjLTQzNzUtYTNlMi02ZjVlMTA4YWYxNDUtMDAxLWMuanBn.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #176B87;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #176B87;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form id="signupForm" action="/TechVision/cre-sign.html" method="post">
+                    <h1 id="h1">Sign Up</h1>
+                    <div>
+                        <label for="name">Name :</label>
+                        <input type="text" id="name" name="uname" placeholder="Enter your name" required>
+                        <label for="username">Username : </label>
+                        <input type="text" placeholder="Generate Username" id="username" name="username">
+                      </div>
+                      <br>
+                      
+                      <label for="edu">Education</label>
+                      <select name="degree" id="edu" name="education">
+                        <option value="High School">High School</option>
+                        <option value="Hig-sec-school">Higher secondary school</option>
+                        <option value="UG">Undergraduate</option>
+                        <option value="PG">Postgraduate</option>
+                      </select>
+                    <br><br>
+                    <div>
+                        <label for="yearS">Year of study</label>
+                        <select id="yearS" name="year">
+                          <option value="none">Select year of study</option>
+                          <option value="1st">1st year</option>
+                          <option value="2nd">2nd year</option>
+                          <option value="3rd">3rd year</option>
+                          <option value="4th">4th year</option>
+                        </select>
+                      </div><br>
+                      <label for="email"> Email : </label>
+                   <input id="email" type="email" name="email" placeholder="Enter your email"><br>
+                   <br>
+                   <label for="pno">Phone no. : </label>
+                   <input type="number" id="pno" name="phoneNo" placeholder="Enter your phone no."><br><br>
+                   <!-- <button class="B">Click to verify</button><br><br> -->
+                    <div>
+                        <label for="pass">Password : </label>
+                        <input type="password" placeholder="Password" id="pass" name="password">
+                    </div><br>
+                    <div>
+                        <label for="Cpass">Confirm Password : </label>
+                        <input type="password" placeholder="Re-enter password" id="Cpass">
+                      </div><br>
+                    <div>
+                        
+                      Do you agree with all the terms and conditions?
+                      <br>
+                      <a href="terms-and-conditions.html">Terms and Conditions</a>
+                      <br>
+                          
+                          <input type="checkbox" id="agree">
+                          <label for="agree">Yes, I agree</label>
+                          
+                    </div><br>
+                       <button class="btn">Sign Up</button>
+                  </form>
+                </div>
+              </div>
+        </form>
+    </div>
+    
+
+
+
+
+
+    </body>
+    </html>
